@@ -10,8 +10,7 @@ print("---------------------------")
 
 
 assinatura = input("Digite o tipo de assinatura: ")
-faturamento = input("Digite quanto você faturou em um ano: ")
-faturamento = float(faturamento)
+faturamento = float(input("Digite quanto você faturou em um ano: "))
 
 if (assinatura == 'B'):
     bonus = faturamento * 0.3
